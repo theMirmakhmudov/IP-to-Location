@@ -1,6 +1,4 @@
-import django.views.generic
 from django.shortcuts import render
-from django.views.generic import TemplateView
 from ipware import get_client_ip
 import requests, json
 
